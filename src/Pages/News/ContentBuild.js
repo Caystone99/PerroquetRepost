@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class ContentBuild extends Component{
     render(){
         const {activities} = this.props;

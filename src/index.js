@@ -2,36 +2,32 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './fontawesome/css/all.css';
-
+import Constructor from '../src/News/Constructor';
 import Header from './Pages/Menu/Header';
 import Footer from './Pages/Menu/Footer';
-import Podcast from './Pages/Podcast/Podcast';
-import News from './Pages/News/News';
+import Tag from './Pages/Assets/Tag';
 
 class Perro extends Component{
     render(){
         return(
-            <>{/*
+            <>
                 <Header
-                    HeaderTitle='../logo.png'
+                    HeaderTitle='../logo3.png'
                 />
-                 */}
-                <Podcast/>
-
-                {/**
+                <Tag
+                    tag = 'New Content' 
+                />             
                 <Player
                     mediaBackground='../assets/S1VeBk_h8.jpeg'
                 />
-
-                <TimelineContent
-                    activities ={activities}
-                />
+                <Constructor/>
                <Footer/>
-                */}
             </>
         );
     }
 }
+
+
 
 class Player extends Component{
     render(){
@@ -56,7 +52,7 @@ class Player extends Component{
                     </div>
 
                     <div className='playerIcon'>
-                        <audio src='../assets/audio.mp3' controls>
+                        <audio src='../assets/audio.mp3' preload='none' controls>
                             Audio element not supported by your browser
                         </audio>
                     </div>
@@ -72,3 +68,5 @@ var mount = document.querySelector('#root');
 ReactDOM.render(
     <Perro/>, mount
 )
+
+export default Perro;

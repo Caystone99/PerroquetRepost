@@ -1,0 +1,46 @@
+[
+    {
+        "newsTag": "Culture",
+        "newsBanner": "../assets/Bkh3f1d2U.jpeg",
+        "timeStamp": "new Date().getTime()",
+        "sourceLogo": "../logo192.png",
+        
+        "id": "Enrythi",
+        "newsHead": "Highlight of the day",
+        "newsBody": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "newsMore": "Here goes the read more part, its just text that means nothing."    
+    },
+    {
+        "newsTag": "Politics",
+        "newsBanner": "../assets/Hk8Xr1u2L.jpeg",
+        "timeStamp": "new Date().getTime()",
+        "sourceLogo": "../logo512.png",
+
+        "newsHead": "Law and Order Fails, Again.",
+        "newsBody": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "newsMore": "Here goes the read more part, its just text that means nothing."
+    },
+
+    {
+        "newsTag": "International",
+        "newsBanner": "../assets/S13V4JuhL.jpeg",
+        "timeStamp": "new Date().getTime()",
+        "sourceLogo": "../logo512.png",
+
+        "newsHead": "Nigeria fails its Citizenry.",
+        "newsBody": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "newsMore": "Here goes the read more part, its just text that means nothing."
+    },
+
+    {
+        "newsTag": "Lifestyle",
+        "newsBanner": "../assets/r1ZFVyO3U.jpeg",
+        "timeStamp": "new Date().getTime()",
+        "sourceLogo": "../logo512.png",
+
+        "newsHead": "Lagos is a failing state.",
+        "newsBody": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "newsMore": "Here goes the read more part, its just text that means nothing."
+    }
+    
+]

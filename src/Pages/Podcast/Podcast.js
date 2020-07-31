@@ -7,7 +7,7 @@ class Podcast extends Component{
         return(
             <>
                 <Header
-                    HeaderTitle='../logo.png'
+                    HeaderTitle='../logo3.png'
                 />
                 <ChannelDesc/>
                 <ChannelContent/>
@@ -53,7 +53,8 @@ class ChannelContent extends Component{
                     </div>
 
                     <div className='playerIcon'>
-                        <audio src='../assets/audio.mp3' controls>
+                        <audio id ='audio' src='../assets/audio.mp3'
+                        controls preload='none'>
                             Audio element not supported by your browser
                         </audio>
                     </div>
