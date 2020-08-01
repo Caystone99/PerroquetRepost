@@ -1,0 +1,41 @@
+#nav{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.055), 0 1px 1px rgba(0,0,0,0.16);
+    background-color:#fff;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:120;
+}
+.logoIcon{
+    display:block;
+    float:left;
+    margin-left:20px;
+    margin-top:5px;
+}
+
+#roundButton{
+    float:right;
+    background-color:#96D9FF;
+    width:30px;
+    margin-right:20px;
+    margin-top:5px;
+    height:30px;
+    border-radius: 50%;
+    border: 5px solid rgb(11, 134, 206);
+    outline:none;
+    transition:all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+
+#roundButton:hover{
+    background-color:#96D9FF;
+    cursor:pointer;
+    border-color:#003557;
+    transform: scale(1.2, 1.2);
+}
+
+#roundButton:active{
+    border-color:#003557;
+    background-color: #fff;
+}
+

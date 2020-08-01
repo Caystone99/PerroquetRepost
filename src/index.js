@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './fontawesome/css/all.css';
 import Constructor from '../src/News/Constructor';
-import Header from './Pages/Menu/Header';
 import Footer from './Pages/Menu/Footer';
 import Tag from './Pages/Assets/Tag';
+
+import MenuContainer from './Pages/Menu/MenuContainer';
 
 class Perro extends Component{
     render(){
         return(
             <>
-                <Header
-                    HeaderTitle='../logo3.png'
-                />
+            <MenuContainer/> 
                 <Tag
                     tag = 'New Content' 
-                />             
+                />
+                            
                 <Player
                     mediaBackground='../assets/S1VeBk_h8.jpeg'
                 />

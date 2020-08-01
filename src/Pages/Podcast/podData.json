@@ -1,0 +1,41 @@
+[
+    {
+        "podEpisode":"Episode 1",     
+        "podDate": "June 29th, 2020",
+
+        "AudioSource":"../assets/audio.mp3",
+
+        "podTitle": "Highlight of the day",
+        "podDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    
+    },
+    {
+        "podEpisode":"Episode 2",     
+        "podDate": "June 30th, 2020",
+        
+        "AudioSource":"../assets/audio2.mp3",
+
+        "podTitle": "Highlight of the day",
+        "podDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    
+    },
+
+    {
+        "podEpisode":"Episode 3",     
+        "podDate": "July 1st, 2020",
+        
+        "AudioSource":"../assets/audio3.mp3",
+
+        "podTitle": "Highlight of the day",
+        "podDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    
+    },
+
+    {
+        "podEpisode":"Episode 4",     
+        "podDate": "July 4th, 2020",
+        
+        "AudioSource":"../assets/audio.mp3",
+
+        "podTitle": "Highlight of the day",
+        "podDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    
+    }
+    
+]

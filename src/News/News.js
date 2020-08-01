@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import Constructor from'./Constructor';
-import Header from '../Pages/Menu/Header';
 import Footer from '../Pages/Menu/Footer';
 import Tag from '../Pages/Assets/Tag';
+
+import MenuContainer from '../Pages/Menu/MenuContainer';
+
 class News extends Component{
     render(){
         
         return(
             <>
-            <Header
-                HeaderTitle='../logo3.png'
-            />
+            <MenuContainer/>
             <Tag
                 tag = 'Top Stories' 
             />
