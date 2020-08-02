@@ -3,7 +3,6 @@ import podData from './podData.json';
 
 class PodConstructor extends Component{
     render(){
-        const {datum} = this.props;
         return(
             <>
             {podData.map((datas, index) => {

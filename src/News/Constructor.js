@@ -3,7 +3,6 @@ import data from './data.json';
 
 class Constructor extends Component{
     render(){
-        const {datum} = this.props;
         return(
             <>
             {data.map((datas, index) => {

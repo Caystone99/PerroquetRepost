@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Footer from '../Menu/Footer';
 import PodConstructor from './podConstructor';
-
+import './Podcast.css';
 import MenuContainer from '../Menu/MenuContainer';
 
 class Podcast extends Component{
